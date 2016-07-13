@@ -30,6 +30,7 @@
 #include "../interface/HWWLVJJRooPdfs.h"
 #include "../interface/RooMorphingPdf.h"
 #include "../interface/GaussExp.h"
+#include "../interface/RooDCBShape.h"
 
 #ifdef __CINT__
 #pragma link off all globals;
@@ -83,6 +84,7 @@
 #pragma link C++ class RooRelBW+;
 #pragma link C++ class RooRelBWHighMass+;
 #pragma link C++ class RooDoubleCB+;
+#pragma link C++ class RooDCBShape+;
 #pragma link C++ class RooaDoubleCBxBW+;
 #pragma link C++ class RooCB+;
 #pragma link C++ class RooFermi+;
